@@ -1,0 +1,56 @@
+
+.hamburger-icon {
+  box-shadow: unset;
+  outline: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+  padding: 7px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background-color: transparent;
+  cursor: pointer;
+  span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin-bottom: 5px;
+    position: relative;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  }
+  
+  span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  span:nth-last-child(1) {
+    transform-origin: 0% 100%;
+    margin-bottom: 0;
+  }
+
+  // &.open {
+  //   span {
+  //     opacity: 1;
+  //     transform: rotate(45deg) translate(-2px, -1px);
+  //   }
+    
+  //   span:nth-last-child(2) {
+  //     opacity: 0;
+  //     transform: rotate(0deg) scale(0.2, 0.2);
+  //   }
+    
+  //   span:nth-last-child(1) {
+  //     transform: rotate(-45deg) translate(0, -1px);
+  //   }
+  // }
+}

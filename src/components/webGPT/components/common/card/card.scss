@@ -1,0 +1,7 @@
+.card{
+    border-radius: 10px;
+    box-shadow: 0 4px 25px rgba(51, 51, 51, 0.15);
+    padding: 20px;
+    background: var(--accentColor);
+	backdrop-filter: grayscale(0.2) opacity(1) blur(30px);
+}

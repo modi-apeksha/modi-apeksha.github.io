@@ -1,0 +1,36 @@
+
+.topbar{
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    transition: position 300ms ease-in-out;
+    .hamburger-icon{
+        display: none;
+    }
+    @media (max-width: 767px) {
+        display: block;
+        overflow: hidden;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        max-height: 48px;
+        position: relative;
+        transition: max-height 300ms ease-in-out;
+        
+        .nav-bar-container{
+            display: none;
+        }
+
+        .logo-container{
+            width: 100%;
+        }
+
+        .hamburger-icon{
+            display: block;
+            position: absolute;
+            top: 7px;
+            right: 15px;
+            left: unset;
+        }
+    }
+}
