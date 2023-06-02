@@ -1,3 +1,4 @@
+// test
 
 const Projects = {
     "path": "/projects",
@@ -12,19 +13,19 @@ const Projects = {
                 {
                     "title": "DevStack Tutor",
                     "description": "The goal of this project is to share coding knowledge using code sandbox environments.",
-                    "label": "devstacktutor",
+                    "label": "Check Out",
                     "href": "https://devstacktutor.com/"
                 },
                 {
                     "title": "My Example App",
                     "description": "The goal of this project is to demo fullstack (MERN) apps with CRUD features.",
-                    "label": "myexampleapp",
+                    "label": "Check Out",
                     "href": "https://myexampleapp.com/"
                 },
                 {
                     "title": "YouTube",
                     "description": "The goal of this project is to simplify coding web apps by sharing short videos.",
-                    "label": "YouTube",
+                    "label": "Check Out",
                     "href": "https://www.youtube.com/@devstacktutor"
                 }
             ],
