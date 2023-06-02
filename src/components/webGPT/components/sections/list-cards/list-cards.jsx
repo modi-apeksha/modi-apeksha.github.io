@@ -35,7 +35,7 @@ const ListCards = ({
                         title={el.title}
                     />
 
-                    {el.href && <Button key={i} href={el.href} bgColor={"#f2f2f2"} textColor={"#000"}>
+                    {el.href && <Button className="card-button" href={el.href} bgColor={"#f2f2f2"} textColor={"#000"}>
                         {el.label}
                     </Button>}
                 </Card>
